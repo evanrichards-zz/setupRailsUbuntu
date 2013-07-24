@@ -10,8 +10,7 @@ sudo apt-get update
 sudo apt-get install -y \
   git \
   build-essential \
-  curl \
-  wget
+  curl 
 
 # Tell bash to load rvm each login:
 echo "[[ -s '${HOME}/.rvm/scripts/rvm' ]] && source '${HOME}/.rvm/scripts/rvm'" >> ~/.bashrc
@@ -21,11 +20,9 @@ curl -L https://get.rvm.io | bash -s stable
 
 #trim this up a bit maybe?
 sudo apt-get install -y \
-  build-essential \
   openssl \
   libreadline6 \
   libreadline6-dev \
-  curl \
   git-core \
   zlib1g \
   zlib1g-dev \
