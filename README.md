@@ -6,8 +6,7 @@ Clone and run this on a new EC2 instance running Ubuntu 12.04.2 LTS to configure
 cd $HOME
 sudo apt-get install -y git-core
 git clone https://github.com/evanrichards/setupRailsUbuntu.git
-chmod 755 setupRailsUbuntu/setupRails.sh  
-./setupRailsUbuntu/setupRails.sh   
+sudo bash setupRailsUbuntu/setupRails.sh   
 ```
 Please note that this installation may take a while. I am expecting 15 mins from a blank machine.
 As it stands now for my personal use this script installs the following and more:
