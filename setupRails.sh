@@ -57,7 +57,7 @@ gem install cyaml --no-ri --no-rdoc
 gem install bundler --no-ri --no-rdoc
 
 # Install Rails:
-gem install rails
+sudo gem install rails
 
 # Heroku install
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
