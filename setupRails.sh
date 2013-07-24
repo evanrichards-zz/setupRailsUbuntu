@@ -61,3 +61,6 @@ gem install rails
 
 # Heroku install
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
+# Install node.js
+sudo apt-get install -y nodejs
